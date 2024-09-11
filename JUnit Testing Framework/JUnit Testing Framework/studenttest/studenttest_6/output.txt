@@ -1,0 +1,6 @@
+studenttest.Test1.z : PASS
+studenttest.Test1.a : PASS
+==========
+FAILURES:
+==========
+Tests run: 2, Failures: 0

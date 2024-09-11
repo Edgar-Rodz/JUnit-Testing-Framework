@@ -1,0 +1,12 @@
+studenttest.Test1.a : PASS
+studenttest.Test1.g : FAIL
+==========
+FAILURES:
+studenttest.Test1.g:
+unittest.assertions.AssertionException
+    at unittest.assertions.Assert.fail(Assert.java:119)
+    at unittest.assertions.Assert.assertTrue(Assert.java:13)
+    at unittest.assertions.Assert.assertTrue(Assert.java:18)
+    at studenttest.Test1.g(Test1.java:22)
+==========
+Tests run: 2, Failures: 1

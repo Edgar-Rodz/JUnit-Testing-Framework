@@ -1,0 +1,15 @@
+studenttest.Test2.atest : PASS
+studenttest.Test2.testC : FAIL
+studenttest.Test2.testA : PASS
+studenttest.Test2.btest : PASS
+studenttest.Test2.ctest : PASS
+==========
+FAILURES:
+studenttest.Test2.testC:
+unittest.assertions.ComparisonException
+    at unittest.assertions.Assert.failNotEquals(Assert.java:126)
+    at unittest.assertions.Assert.assertEquals(Assert.java:79)
+    at unittest.assertions.Assert.assertEquals(Assert.java:84)
+    at studenttest.Test2.testC(Test2.java:18)
+==========
+Tests run: 5, Failures: 1
